@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:monospace;
+}
+
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+
+.mfl {
+  float: left;
+  margin-left: 1%;
+}
+.mfl2 {
+  float: left;
+  margin-left: 6%;
+}
+.bg {
+  background-color: #000;
+}
+
+.bg1 {
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff5500,
+    #ffaa00,
+    #ffff00,
+    #aaff00,
+    #55ff00,
+    #00ff00,
+    #00ff55,
+    #00ffaa,
+    #00ffff,
+    #00aaff,
+    #0055ff,
+    #0000ff,
+    #5500ff,
+    #aa00ff,
+    #ff00ff,
+    #ff00aa,
+    #ff0055,
+    #ff0000
+  );
+
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(7, 155, 205, 0.5);
+}
+
+.bg2 {
+  background-color: #000;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  height: 380px;
+  width: 90%;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.main-l {
+  height: 350px;
+  width: 76%;
+  margin: 2% 0.5%;
+}
+
+.cunction {
+  height: 30px;
+  width: 5.31%;
+  color: #0ef;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.number {
+  height: 45px;
+  width: 6%;
+  color: #0ef;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.back {
+  width: 9%;
+}
+
+.eng {
+  line-height: 45px;
+}
+
+.caps {
+  width: 11%;
+}
+
+.shift {
+  width: 14.5%;
+}
+
+.space {
+  height: 55px;
+  width: 6%;
+  color: #0ef;
+  text-align: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.sp {
+  width: 34%;
+}
+
+.aro {
+  width: 21.5%;
+}
+
+.arobtn {
+  height: 55px;
+  width: 29%;
+}
+
+.arobtnsub {
+  height: 25px;
+  width: 100%;
+}
+
+.ardwn {
+  margin-top: 8px;
+}
+
+.mail-r {
+  height: 350px;
+  width: 22%;
+  margin: 2% 0.5%;
+}
+
+.lnum {
+  width: 78%;
+}
+.pgup {
+  height: 30px;
+  width: 31%;
+  color: #0ef;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.mf13 {
+  float: left;
+  margin-left: 4%;
+}
+.calnub {
+  height: 45px;
+  width: 31%;
+  color: #0ef;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.calzeo {
+  height: 57px;
+  width: 66%;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #0ef;
+}
+.dot {
+  height: 57px;
+}
+.rsym {
+  width: 18%;
+}
+.end {
+  margin-bottom: 10px;
+  height: 30px;
+  color: #0ef;
+  text-align: center;
+}
+.mins {
+  margin-bottom: 10px;
+  height: 45px;
+  color: #0ef;
+  text-align: center;
+}
+.plus {
+  height: 98px;
+  margin-bottom: 10px;
+  color: #0ef;
+  text-align: center;
+  line-height: 98px;
+}
+.enter {
+  height: 110px;
+  margin-bottom: 10px;
+  color: #0ef;
+  text-align: center;
+  line-height: 112px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.tab {
+  margin-right: 60%;
+}
+.mrt {
+  margin-right: 30px;
+}
+.sft {
+  margin-right: 110px;
+}
+.lent {
+  margin-left: 70px;
+}
+.lsft {
+  margin-left: 110px;
+}
